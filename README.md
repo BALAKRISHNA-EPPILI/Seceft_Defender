@@ -403,8 +403,41 @@ But ,this switch is not be known by every person ,it only knows to guard or empl
 # Future Scope
 
 # Team Details
+- Team Name: Secure Vision
 
 # References 
+
+## For Laser
+
+[1]. https://techatronic.com/how-to-make-a-laser-security-alarm/ ( code) 
+
+[2]. https://rees52.com/make-a-security-system-using-laser-and-ldr-module-kt616-2794-projects-kits/ (code)
+
+[3]. https://www.youtube.com/watch?v=jxxY9uTAD6I
+
+
+[4]. https://www.hackster.io/Techatronic/how-to-make-a-laser-security-alarm-using-arduino-4b851a#:~:text=Connect%20the%20220%20Ohm%20resistor,2%20on%20the%20Arduino%20board.
+
+## Code
+
+[1]. https://www.youtube.com/watch?v=alQ9v8dyaTs
+[2]. https://www.youtube.com/watch?v=Q8B4f0y1UCI (code)
+[3]. https://www.youtube.com/watch?v=Q8B4f0y1UCI 
+[4]. https://drive.google.com/drive/folders/1MCopaGDJfGTQ13RYMycoDNMVMuGshYor (code)
+[5].https://lpulaguna.edu.ph/wp-content/uploads/2019/10/2.-Design-and-Implementation-of-an-Arduino-Based-Security-System-Using-Laser-Light.pdf (CODE)
+
+
+## PIR SENSOR 
+
+[1]. https://studytronics.weebly.com/uploads/4/4/3/7/44372217/home_security_alarm_system_using_arduino_project_report.pdf 
+
+[2]. https://www.hackster.io/roshan-baig/security-system-using-pir-sensor-d713a5 
+
+
+[3]. https://www.youtube.com/watch?v=kgLrA2Y9vAg (CODE)
+==
+
+[4]. https://airccse.com/eeij/papers/4317eeij01.pdf (ALL)
 
 
 # Author
