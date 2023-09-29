@@ -53,11 +53,17 @@ Primary Action and Features of the Product are given below:-
 
 ## → Hardware Components Used
 
-| Component name  | Quantity Required | Unit price  | Total Price (Unit price*Quantity) |
-| ------------- | ------------- || ------------- | ------------- || ------------- | ------------- |
-| Ultrasonic Sensor  | Quantity Required | Unit price  | Total Price (Unit price*Quantity) |
+|</p>
+<p align="center">
+  <img src="https://github.com/BALAKRISHNA-EPPILI/Seceft_Defender/assets/88899069/046b2313-33cb-45a9-af8e-c777a5c17e72"></br>
+   
+</p>
 
-
+|</p>
+<p align="center">
+  <img src="https://github.com/BALAKRISHNA-EPPILI/Seceft_Defender/assets/88899069/b14cc230-7755-43f8-9a0c-701228b05882"></br>
+   
+</p>
 
 ## Software Used
 
