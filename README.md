@@ -48,3 +48,10 @@ Primary Action and Features of the Product are given below:-
 </p>
 
      
+# Components Required 
+
+## → Hardware Components Used
+
+| Component name  | Quantity Required | Unit price  | Total Price (Unit price*Quantity) |
+| ------------- | ------------- || ------------- | ------------- || ------------- | ------------- |
+| Component name  | Quantity Required | Unit price  | Total Price (Unit price*Quantity) |
