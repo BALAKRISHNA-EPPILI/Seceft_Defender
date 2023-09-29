@@ -73,6 +73,13 @@ Primary Action and Features of the Product are given below:-
 
 # Flowchart of the Product
 
+</p>
+<p align="center">
+  <img src="https://github.com/BALAKRISHNA-EPPILI/Seceft_Defender/assets/88899069/a68e0f4d-26b8-4a70-89ad-2533c4a554ca"></br>
+    
+</p>
+
+
 # Algorithm of the Product
 
 - When any person enters into the room .
