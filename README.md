@@ -18,7 +18,7 @@ This is what our project describes. ..
 Now ,let's come to the purpose of our project …
 
 # Purpose
-     The main purpose of our project is to protect the secure data, crucial personal belongings from stolen by the thieves/anyone ….. The personal belongings or data can be either in the form of bank lockwers, money at home, company’s personal secure properties , Jewelleries , etc.  
+The main purpose of our project is to protect the secure data, crucial personal belongings from stolen by the thieves/anyone ….. The personal belongings or data can be either in the form of bank lockwers, money at home, company’s personal secure properties , Jewelleries , etc.  
 
 
 # Applications of SECEFT
@@ -54,4 +54,4 @@ Primary Action and Features of the Product are given below:-
 
 | Component name  | Quantity Required | Unit price  | Total Price (Unit price*Quantity) |
 | ------------- | ------------- || ------------- | ------------- || ------------- | ------------- |
-| Component name  | Quantity Required | Unit price  | Total Price (Unit price*Quantity) |
+| Ultrasonic Sensor  | Quantity Required | Unit price  | Total Price (Unit price*Quantity) |
