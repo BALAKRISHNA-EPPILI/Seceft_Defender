@@ -2,7 +2,6 @@
 
 
 
-
 # Introduction:
 The project SECEFT DEFENDER (security theft ) defender describes that
 As, nowadays we know that protecting our personal belongings ,data , or perosnal things to keep it safe and secure from others either it's in form of money ,data, jewelleries , etc. ….
