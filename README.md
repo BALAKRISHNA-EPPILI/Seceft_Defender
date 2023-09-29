@@ -58,11 +58,6 @@ Primary Action and Features of the Product are given below:-
 | Ultrasonic Sensor  | Quantity Required | Unit price  | Total Price (Unit price*Quantity) |
 
 
-</p>
-<p align="center">
-  <img src="https://github.com/BALAKRISHNA-EPPILI/Seceft_Defender/assets/88899069/30e13df8-1173-4846-9292-27b063ea116c"></br>
-    
-</p>
 
 ## Software Used
 
@@ -76,6 +71,14 @@ Primary Action and Features of the Product are given below:-
   <img src="https://github.com/BALAKRISHNA-EPPILI/Seceft_Defender/assets/88899069/94f7f43c-b06f-4c3f-88a9-12533b216c5b"></br>
     
 </p>
+
+
+</p>
+<p align="center">
+  <img src="https://github.com/BALAKRISHNA-EPPILI/Seceft_Defender/assets/88899069/30e13df8-1173-4846-9292-27b063ea116c"></br>
+    
+</p>
+
 
 # Flowchart of the Product
 
