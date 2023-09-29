@@ -17,3 +17,34 @@ This is what our project describes. ..
 
 Now ,let's come to the purpose of our project …
 
+# Purpose
+     The main purpose of our project is to protect the secure data, crucial personal belongings from stolen by the thieves/anyone ….. The personal belongings or data can be either in the form of bank lockwers, money at home, company’s personal secure properties , Jewelleries , etc.  
+
+
+# Applications of SECEFT
+
+The applications of SECEFT  are ➖
+
+
+# Some Actions and Features of Product  
+
+Primary Action and Features of the Product are given below:- 
+
+• Security 
+• Monitoring
+ • Alarm 
+• Detect motion 
+• Track
+• Respond 
+• Display Message
+
+
+# Block Diagram of the Product 
+
+</p>
+<p align="center">
+  <img src="https://github.com/BALAKRISHNA-EPPILI/Seceft_Defender/assets/88899069/0124acb8-28ca-42bc-9eee-c8606955354d"></br>
+   fig.1: REFERENCE CIRCUIT 4-bit_Flash_ADC 
+</p>
+
+     
