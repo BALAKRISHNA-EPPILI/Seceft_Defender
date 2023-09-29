@@ -397,3 +397,15 @@ And it alerts outside the about the thieve or something unusual is happening ins
 There , is also a switch connected there , using which one can stop the alarm in case ,If the guard or some dedicated or assigned person enters just to check kr roam once in a place and alarm triggers so,at that time he/she can press the switch button and the alarm stops .
 But ,this switch is not be known by every person ,it only knows to guard or employee who are taking care of that area .
 
+
+
+# Rough sketch of Final Product 
+
+# Future Scope
+
+# Team Details
+
+# References 
+
+
+# Author
