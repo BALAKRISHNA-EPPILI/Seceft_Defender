@@ -283,8 +283,17 @@ long measureDistance() {
 
 The Compiled Code snapshot by selecting Arduino UNO Board in Arduino IDE is attached below:-
 
+</p>
+<p align="center">
+  <img src="https://github.com/BALAKRISHNA-EPPILI/Seceft_Defender/assets/88899069/21fd9528-0a96-4ae7-972d-40b5e5bd5814"></br>
+  
+</p>
 
-
+</p>
+<p align="center">
+  <img src="https://github.com/BALAKRISHNA-EPPILI/Seceft_Defender/assets/88899069/6eb72253-0bbc-4e08-8971-8eafab59f3ad"></br>
+  
+</p>
 
 
 ## Error-free Compilation Log File with Arduino UNO
