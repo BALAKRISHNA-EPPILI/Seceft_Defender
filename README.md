@@ -421,10 +421,14 @@ But ,this switch is not be known by every person ,it only knows to guard or empl
 ## Code
 
 [1]. https://www.youtube.com/watch?v=alQ9v8dyaTs
-[2]. https://www.youtube.com/watch?v=Q8B4f0y1UCI (code)
+
+[2]. https://www.youtube.com/watch?v=Q8B4f0y1UCI 
+
 [3]. https://www.youtube.com/watch?v=Q8B4f0y1UCI 
-[4]. https://drive.google.com/drive/folders/1MCopaGDJfGTQ13RYMycoDNMVMuGshYor (code)
-[5].https://lpulaguna.edu.ph/wp-content/uploads/2019/10/2.-Design-and-Implementation-of-an-Arduino-Based-Security-System-Using-Laser-Light.pdf (CODE)
+
+[4]. https://drive.google.com/drive/folders/1MCopaGDJfGTQ13RYMycoDNMVMuGshYor 
+
+[5].https://lpulaguna.edu.ph/wp-content/uploads/2019/10/2.-Design-and-Implementation-of-an-Arduino-Based-Security-System-Using-Laser-Light.pdf 
 
 
 ## PIR SENSOR 
@@ -434,10 +438,7 @@ But ,this switch is not be known by every person ,it only knows to guard or empl
 [2]. https://www.hackster.io/roshan-baig/security-system-using-pir-sensor-d713a5 
 
 
-[3]. https://www.youtube.com/watch?v=kgLrA2Y9vAg (CODE)
-==
-
-[4]. https://airccse.com/eeij/papers/4317eeij01.pdf (ALL)
+[3]. https://airccse.com/eeij/papers/4317eeij01.pdf (ALL)
 
 
 # Author
