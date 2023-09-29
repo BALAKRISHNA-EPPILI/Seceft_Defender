@@ -390,3 +390,10 @@ Sketch uses 11788 bytes (0%) of program storage space. Maximum is 8388608 bytes.
 
 # Working
 
+The working of this product is in such a way that whenever any person enters or Any thief enters into this protected area then, if in case he/she will crosses the set distance of ultrasonic sensor then, it ultrasonic sensor detects that and alarm triggers and if in any case/situation someone crosses the or escapes the ultrasonic sensor distance without any alarm triggers then, there is PIR sensor also there, which detects the motion with the help of heat and hence it detects that person motion and alarm triggers ,in this case also ,on LCD display it shows that someone enters and which sensor causes the alarm to trigger so, one came to know about it .
+After that if in any case/situation ,someone's escapes from ultrasonic sensor or PIR sensor then, there is highly protected laser technology established there, that escaping from this technology is not so much easy so, as soon as that person goes further , as LDR sensor detects  the light on which laser module depend so, when one interrupts in between the laser light then, it causes the alarm to trigger and messages goes over the LCD display .
+And it alerts outside the about the thieve or something unusual is happening inside that area so, other people or that area guard come and cross check that .
+
+There , is also a switch connected there , using which one can stop the alarm in case ,If the guard or some dedicated or assigned person enters just to check kr roam once in a place and alarm triggers so,at that time he/she can press the switch button and the alarm stops .
+But ,this switch is not be known by every person ,it only knows to guard or employee who are taking care of that area .
+
