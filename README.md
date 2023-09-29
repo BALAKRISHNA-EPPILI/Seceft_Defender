@@ -44,7 +44,7 @@ Primary Action and Features of the Product are given below:-
 </p>
 <p align="center">
   <img src="https://github.com/BALAKRISHNA-EPPILI/Seceft_Defender/assets/88899069/0124acb8-28ca-42bc-9eee-c8606955354d"></br>
-   fig.1: REFERENCE CIRCUIT 4-bit_Flash_ADC 
+   
 </p>
 
      
@@ -62,3 +62,195 @@ Primary Action and Features of the Product are given below:-
 - Arduino IDE Open Source Software
 - C code
 
+### Connections Diagram of the Product with VSDQuadron Board (Riscduino Board)
+
+</p>
+<p align="center">
+  <img src="https://github.com/BALAKRISHNA-EPPILI/Seceft_Defender/assets/88899069/94f7f43c-b06f-4c3f-88a9-12533b216c5b"></br>
+    
+</p>
+
+# Flowchart of the Product
+
+# Algorithm of the Product
+
+- When any person enters into the room .
+- He/she crosses the measured distance .
+- Ultrasonic sensor detects it and activates the alarm, alarm buzzes and it is displayed on LCD that alarm buzzes due to ultrasonic sensor.
+- If ultrasonic sensor ,not able to detect or person , escapes from ultrasonic sensor, then, PIR sensor detects motion, and alarm triggers ,and it is displayed on LCD that alarm buzzes due to PIR sensor.
+- If PIR sensor ,not able to detect or person also, escapes from PIR  sensor, then,the Laser Module is also their for monitoring .
+- If someone crosses the laser beam, alarm triggers and it is displayed on LCD that alarm buzzes due to Laser module.
+- LDR also monitors ambient light, and due to this only, laser module detects the person.
+ - If in any case or situation whenever someone tries to block the sensor, Alarm Triggers.
+- When any sensors are triggered, buzzer starts buzzing to alert nearby persons.
+- LCD display shows, information about intruder and throws message.
+- LCD display also shows, information that due to which sensor the alarm buzzes .
+
+
+# C code in Arduino UNO
+
+```
+
+#include <LiquidCrystal.h>
+// Pin assignments
+const int PIR_PIN = 2;                                                 //
+const int LDR_PIN = A0;
+const int LASER_PIN = 3;
+const int ULTRASONIC_TRIG_PIN = 5;
+const int ULTRASONIC_ECHO_PIN = 6;
+const int BUZZER_PIN = 4;
+const int LCD_RS_PIN = 12;
+const int LCD_EN_PIN = 11;
+const int LCD_D4_PIN = 5;
+const int LCD_D5_PIN = 4;
+const int LCD_D6_PIN = 3;
+const int LCD_D7_PIN = 2;
+const int SWITCH_PIN = 7;
+
+// System state
+boolean alarmTriggered = false;
+boolean alarmStopped = false;
+
+// Sensor readings
+int PIR_reading = 0;
+int LDR_reading = 0;
+long ultrasonic_distance = 0;
+
+// LCD display
+LiquidCrystal lcd(LCD_RS_PIN, LCD_EN_PIN, LCD_D4_PIN, LCD_D5_PIN, LCD_D6_PIN, LCD_D7_PIN);
+
+void setup() {
+  // Set up the PIR sensor
+  pinMode(PIR_PIN, INPUT);
+
+  // Set up the LDR sensor
+  pinMode(LDR_PIN, INPUT);
+
+  // Set up the laser module
+  pinMode(LASER_PIN, OUTPUT);
+
+  // Set up the ultrasonic sensor
+  pinMode(ULTRASONIC_TRIG_PIN, OUTPUT);
+  pinMode(ULTRASONIC_ECHO_PIN, INPUT);
+
+  // Set up the buzzer
+  pinMode(BUZZER_PIN, OUTPUT);
+
+  // Set up the LCD display
+  lcd.begin(16, 2);
+  lcd.print("Theft Security System");
+
+  // Turn on all sensors
+  digitalWrite(LASER_PIN, HIGH);
+  digitalWrite(ULTRASONIC_TRIG_PIN, HIGH);
+  pinMode(SWITCH_PIN, INPUT);
+  digitalWrite(SWITCH_PIN,HIGH);
+
+}
+
+void loop() {
+  // Read the PIR sensor
+  PIR_reading = digitalRead(PIR_PIN);
+
+  // Read the LDR sensor
+  LDR_reading = analogRead(LDR_PIN);
+
+
+  
+
+  // Read the ultrasonic sensor
+  ultrasonic_distance = measureDistance();
+  
+
+  // Read the switch
+  boolean switchState = digitalRead(SWITCH_PIN);
+
+  // Check if any sensor detects an object or motion
+  if (ultrasonic_distance < 200 || PIR_reading == HIGH) {
+    // Trigger the alarm
+    alarmTriggered = true;
+  }
+
+
+if (LDR_reading < 500) {
+    // Turn on the laser module
+    digitalWrite(LASER_PIN, HIGH);
+
+    // Turn on the buzzer
+    digitalWrite(BUZZER_PIN, HIGH);
+
+    // Display alarm message on LCD
+    lcd.clear();
+    lcd.print("Alarm Triggered!");
+  }
+
+
+
+   // Check if the LDR sensor detects a change in light conditions
+  
+
+  // If the alarm is triggered
+  
+
+
+  // If the alarm is triggered and not stopped
+  if (alarmTriggered && !alarmStopped) {
+    // Turn on the buzzer
+    digitalWrite(BUZZER_PIN, HIGH);
+
+    // Display alarm message on LCD
+    lcd.clear();
+    lcd.print("Alarm Triggered!");
+
+    // Show the sensor name that triggered the alarm on LCD
+    if (ultrasonic_distance < 200) {
+      lcd.print("\nUltrasonic Sensor");
+    } else if (PIR_reading == HIGH) {
+      lcd.print("\nPIR Sensor");
+    } else if (LDR_reading < 500) {
+      lcd.print("\nLDR Sensor");
+    }
+
+    // Show warning message that someone enters on LCD
+    lcd.print("\nSomeone Enters!");
+  }
+
+  // Otherwise, turn off the buzzer
+  else {
+    digitalWrite(BUZZER_PIN, LOW);
+  }
+  
+
+  // Check if the switch is pressed
+  if (switchState == LOW) {
+    // Stop the alarm
+    alarmStopped = true;
+  }
+
+  // If the alarm is stopped
+  if (alarmStopped) {
+    // Clear the LCD display
+    lcd.clear();
+
+    // Display message that the alarm is stopped
+
+  }
+}
+// Measures the distance to an object using the ultrasonic sensor
+long measureDistance() {
+  // Set the TRIG pin HIGH for 10 microseconds
+  digitalWrite(ULTRASONIC_TRIG_PIN, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(ULTRASONIC_TRIG_PIN, LOW);
+
+  // Measure the time it takes for the echo pulse to return
+  long pulseDuration = pulseIn(ULTRASONIC_ECHO_PIN, HIGH);
+
+  // Calculate the distance to the object
+  long distance = pulseDuration / 58.2;
+
+  return distance;
+}
+
+
+```
