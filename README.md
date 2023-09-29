@@ -402,6 +402,24 @@ But ,this switch is not be known by every person ,it only knows to guard or empl
 
 # Future Scope
 
+This product  have several future scope ,these are :-
+
+1) We can also connect this app with GSM module , which can directly send normal message over the phone for these unnecessary types of situations ,one can be notified on urgent basis and on time .
+
+2) In future, we can connect this product with the Bluetooth or wifi  or with gsm module so, that we can make its app and this message directly goes to the app .
+The message which it's displaying on LCD now.
+
+
+So, if in case suppose it's a building and guard is only sitting at the bottom of the building then, in such mishappening of situation one can be notified and he/she can rush in hurry and check in that area ,which ensures you more safety .
+
+3) With the help of AI technology we can add camera there also, and get access of that camera which wil be connected to our app directly and we can monitor everything on our phone .
+
+
+But for implementing these future scopes ,the cost of the product may increase as per the requirements and some additional components will be added in the product .
+
+As, these are the future scope so, we can check or update it in future as per the requirement of market or availability of this much advanced product in the market .
+
+
 # Team Details
 - Team Name: Secure Vision
 
@@ -442,3 +460,5 @@ But ,this switch is not be known by every person ,it only knows to guard or empl
 
 
 # Author
+• Vanshika Tanwar, B.Tech(ECE), Dronacharya Group of Institutions, Greater Nodia, Uttar Pradesh.
+• E Balakrishna, B.Tech(ECE), Dronacharya Group of Institutions, Greater Nodia, Uttar Pradesh.
