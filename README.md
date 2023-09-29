@@ -398,8 +398,24 @@ There , is also a switch connected there , using which one can stop the alarm in
 But ,this switch is not be known by every person ,it only knows to guard or employee who are taking care of that area .
 
 
+# Advantages 
+
+1. More secure 
+2. Having multiple flexibility of security .
+3. There is a backup option available as ,if in any cases one sensor become fails or disabled ,then other is present there to work , it detects and work accordingly .
+So, in such a way we can have the multiple backup system in a single product
+
 
 # Rough sketch of Final Product 
+
+</p>
+<p align="center">
+  <img src="https://github.com/BALAKRISHNA-EPPILI/Seceft_Defender/assets/88899069/5ada858b-01f4-413e-a900-357822129025"></br>
+   
+</p>
+
+
+
 
 # Future Scope
 
@@ -423,6 +439,12 @@ As, these are the future scope so, we can check or update it in future as per th
 
 # Team Details
 - Team Name: Secure Vision
+
+</p>
+<p align="center">
+  <img src="https://github.com/BALAKRISHNA-EPPILI/Seceft_Defender/assets/88899069/02a2ba47-c11c-4cff-88be-a0d781bad792"></br>
+   
+</p>
 
 # References 
 
