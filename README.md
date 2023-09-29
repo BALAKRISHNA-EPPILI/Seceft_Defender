@@ -487,6 +487,13 @@ As, these are the future scope so, we can check or update it in future as per th
 
 [3]. https://airccse.com/eeij/papers/4317eeij01.pdf (ALL)
 
+# Acknowledgements:
+
+- [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
+- [VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/)
+
+
+
 
 # Author
 • Vanshika Tanwar, B.Tech(ECE), Dronacharya Group of Institutions, Greater Nodia, Uttar Pradesh.
