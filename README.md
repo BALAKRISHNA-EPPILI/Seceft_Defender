@@ -335,6 +335,21 @@ Global variables use 155 bytes (7%) of dynamic memory, leaving 1893 bytes for lo
 
 # Complied Code snapshot with VSDQUADRON Board (RISCDUINO Board) in Arduino IDE
 
+</p>
+<p align="center">
+  <img src="https://github.com/BALAKRISHNA-EPPILI/Seceft_Defender/assets/88899069/7caeec9c-160e-4456-9af2-dd0fa26ac338"></br>
+  
+</p>
+
+
+</p>
+<p align="center">
+  <img src="https://github.com/BALAKRISHNA-EPPILI/Seceft_Defender/assets/88899069/2c65be60-3632-44bf-9239-ba7b85ef09fd"></br>
+  
+</p>
+
+
+
 ## Error-free Compilation Log File with VSDQUADRON Board (RISCDUINO Board)
 
 ```
