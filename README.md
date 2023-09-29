@@ -55,3 +55,9 @@ Primary Action and Features of the Product are given below:-
 | Component name  | Quantity Required | Unit price  | Total Price (Unit price*Quantity) |
 | ------------- | ------------- || ------------- | ------------- || ------------- | ------------- |
 | Ultrasonic Sensor  | Quantity Required | Unit price  | Total Price (Unit price*Quantity) |
+
+
+## Software Used
+
+- Arduino IDE Open Source Software
+- C code
