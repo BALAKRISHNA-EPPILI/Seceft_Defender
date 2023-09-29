@@ -452,6 +452,20 @@ As, these are the future scope so, we can check or update it in future as per th
    
 </p>
 
+Vanshika Tanwar, 
+Course- B.tech (Electronics and Communication Engineering)
+Institute- Dronacharya Group Of Institution, Greater Noida (affiliated to AKTU)
+Role in this product - Handling Hardware Connections and pin out with VSDQuadron Board.
+
+
+
+E Balakrishna, 
+Course- B.tech (Electronics and Communication Engineering)
+Institute- Dronacharya Group Of Institution, Greater Noida (affiliated to AKTU)
+Role in this product - Handling Software part Arduino IDE coding of the product 
+
+
+
 # References 
 
 ## For Laser
