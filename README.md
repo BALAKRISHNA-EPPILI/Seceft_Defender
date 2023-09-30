@@ -25,6 +25,12 @@ The main purpose of our project is to protect the secure data, crucial personal 
 
 The applications of SECEFT  are ➖
 
+[1] Security of Bank lockers after bank closes.
+
+[2] Security of different company's labs /company's equipments and important documents .
+
+[3] Security of jewelleries shop after shop closes .
+
 
 # Some Actions and Features of Product  
 
